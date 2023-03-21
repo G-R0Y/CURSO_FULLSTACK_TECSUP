@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0;
+        }
+        BODY{
+            background: #e0e0e0;
+        }
+        .card{
+            height: 500px;
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 15px;
+            /* border: 1px solid #ccc; */
+            /* inset es para los bordes al interiro / los bordes neomorfismo son cheveres */
+            /* box-shadow: #888 5px 5px 5px ; */
+
+            border-radius: 50px;
+            background: #e0e0e0;
+            box-shadow:  23px 23px 45px #797979, -23px -23px 45px #ffffff;
+       
+        }
+
+        .caja-gradiente{
+            height: 300px;
+            background: #355C7D;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        .caja-gardiente2{
+            height: 500px;
+            background: #12c2e9;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        .caja-blur{
+            filter: blur(1px) grayscale(0.5);
+        }
+        /* hover es cuando el mouse esta sobre ese elemeto */
+        /* .caja-blur:hover{
+            filter: blur(0px);
+            cursor: pointer;
+        } */
+    </style>
+</head>
+<body>
+    <div class="card">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut praesentium velit numquam laboriosam, accusamus eius esse aspernatur. Rerum repellat illo unde tempore adipisci eum ex, dignissimos libero cumque explicabo debitis.
+    </div>
+    <div class="caja-gradiente">
+        fsdfsdfsd
+    </div>
+    <div class="caja-gardiente2">
+        kkkkk
+    </div>
+
+    <div class="caja-blur">
+        <img src="./pika.jfif" alt="">
+    </div>
+    
+</body>
+</html>

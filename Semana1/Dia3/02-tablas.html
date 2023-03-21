@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            background-color: #444;
+            color: #eee;
+            font-family: sans-serif;
+        }
+        code{
+            font-family: consolas;
+            color: yellow;
+        }
+    </style>
+    
+</head>
+<body>
+   <header>
+    <h1>Tablas</h1>
+   </header> 
+   <main>
+    <section>
+        <h2>Filas y Columnas</h2>
+        <p>las tablas se colocan dentro de una etiqueta <code>table</code></code></p>
+        <p>las tablas tienen 3 partes</p>
+        <ul>
+            <li><code>thead</code>: cabecera</li>
+            <li><code>tbody</code>: cuerpo</li>
+            <li><code>tfoot</code>: pie de tabla</li>
+        </ul>
+    </section>
+    <hr />
+    <section>
+        <h2>Tabla simple</h2>
+        <table border="1" >
+            <thead align="center">
+                <tr>
+                    <th>Cantidad</th>
+                    <th>Descripcion</th>
+                    <th>P. Unitario</th>
+                    <th>P. Total</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>2</td>
+                    <td>Teclado Fantic</td>
+                    <td>200.00</td>
+                    <td>400.00</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>mouse inalambrico</td>
+                    <td>50.00</td>
+                    <td>250.00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>monitor casio</td>
+                    <td>750.00</td>
+                    <td>1500.00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" align="center">total</td>
+                    <td>S/.3000.00</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <section>
+        <h2>Combinando Filas</h2>
+        <p>Para combinarlas se usa el atributo <code>rowspan</code></code></p>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Categoria</th>
+                    <th>Etiquetas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="5">izquierda</td>
+                    <td>derecha</td>
+                </tr>
+                <tr>
+                    <td>derecha</td>
+                </tr>
+                <tr>
+                    <td>derecha</td>
+                </tr>
+                <tr>
+                    <td>derecha</td>
+                </tr>
+                <tr>
+                    <td>derecha</td>
+                </tr>
+                <tr>
+                    <td rowspan="5">izquierda</td>
+                    <td>derecha</td>
+                </tr>
+                <tr>
+                    <td>derecha</td>
+                </tr>
+                <tr>
+                    <td>derecha</td>
+                </tr>
+                <tr>
+                    <td>derecha</td>
+                </tr>
+                <tr>
+                    <td>derecha</td>
+                </tr>
+                <tr>
+                    <td rowspan="6">izquierda</td>
+                    <td>derecha</td>
+                </tr>
+                <tr>
+                    <td>derecha</td>
+                </tr>
+                <tr>
+                    <td>derecha</td>
+                </tr>
+                <tr>
+                    <td>derecha</td>
+                </tr>
+                <tr>
+                    <td>derecha</td>
+                </tr>
+                <tr>
+                    <td>derecha</td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </section>
+    <section>
+        <h2>Ejercicio</h2>
+        <table border="1">
+            <thead></thead>
+            <tbody></tbody>
+            <tr>
+                <td rowspan="5" >SUPERMERCADO VENDEDORA</td>
+                <td colspan="2">                 </td>
+                <td>25/12/23</td>
+            </tr>
+            <tr>
+                <td colspan="3">nRO FACTURA SDASDASD</td>
+            </tr>
+            <tr>
+
+                <td colspan="2">
+                <p>    Cliente</p>
+                </td>
+                <td rowspan="3">      JUAN FRANCISCO</td>
+            </tr>
+            <tr>
+
+                <td colspan="2">     RUC      </td>
+            </tr>
+            <tr>
+                <td colspan="2">     DIRECION      </td>
+            </tr>
+            <tfoot></tfoot>
+        </table>
+    </section>
+   </main>
+</body>
+</html>

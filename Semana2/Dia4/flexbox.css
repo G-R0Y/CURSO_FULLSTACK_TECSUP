@@ -1,0 +1,44 @@
+/* .papa{
+    display: flex;
+    margin: 5px;
+} */
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    height: 80px;
+    width: 80px;
+}
+
+.nav{
+    position: relative;
+    
+}
+.nav__ul{
+    list-style: none;
+    display: flex;
+    
+}
+.nav__ul_li{
+    margin: 5px;
+}
+
+
+
+.papa-box{
+    height: 50vh;
+    border: 1px solid orange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 8px;
+}

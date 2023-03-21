@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0;
+        }
+        body{
+            padding-bottom: 500px;
+        }
+        .caja-1{
+            width: 200px;
+            /* height: 20px; */
+            background-color: brown;
+            /* margin-left: auto;
+            margin-right: auto; */
+        }
+        .caja-2{
+            height: 200px;
+            background-color: red;
+            background-image: url(./textura.png);
+            background-repeat: repeat-x;
+            background-size: 500px;
+            
+        }
+        .caja-3{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            border-radius: 50%;
+        }
+        .caja-4{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            border-radius: 50%;
+            background-image: url(./textura.png);
+        }
+        .caja-5{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .caja-5 img{
+            width: 100%;
+            height: 100%;
+        }
+        input{
+            border: 0;
+            border-bottom: 3px solid #55aa89;
+            background-color:  gray;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="caja-1">caja 1</div>
+    <div class="caja-2">caja 2</div>
+    <div class="caja-3">caja 3</div>
+    <div class="caja-4"></div>
+    <div class="caja-5">
+        <img src="./textura.png" alt="">
+    </div>
+    <input type="text" placeholder="What's your name?">
+</body>
+</html>

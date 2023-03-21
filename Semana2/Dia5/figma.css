@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    height: 100vh;
+ }
+img{
+    width: 385px;
+    height: 182px;
+}
+
+.titulo{
+    text-align: center;
+    padding-top: 71px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home{
+    padding-left: 33px;
+}

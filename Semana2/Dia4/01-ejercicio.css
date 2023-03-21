@@ -1,0 +1,47 @@
+header {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    background: #355C7D;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+li {
+    /* margin: 5px; */
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 2px 8px;
+    transition: all 0.15s ease-in 0s;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #0287a8;
+    color: #24252a;
+    transform: scale(1.1);
+    align-items: flex-end;
+    justify-content: ;
+
+    flex-direction: ;
+
+    flex-flow: column;
+} 

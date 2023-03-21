@@ -1,0 +1,37 @@
+.container{
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "nav section section aside"
+    "footer footer footer footer";
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    
+    grid-template:
+    "header header header header" 150px
+    "nav section section aside" 150px
+    "footer footer footer footer" 150px /
+    150px 150px 150px 150px;
+
+}
+
+header{
+    grid-area: header;
+    background-color: red;
+}
+nav{
+    grid-area: nav;
+    background-color: yellow;
+}
+aside{
+    grid-area: aside;
+    background-color: brown;
+}
+section{
+    grid-area: section;
+    background-color: blue;
+}
+footer{
+    grid-area: footer;
+    background-color: green;
+}

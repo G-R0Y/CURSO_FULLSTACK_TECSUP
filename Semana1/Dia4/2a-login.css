@@ -1,0 +1,15 @@
+/*solo el nombre*/
+body{
+    background-color: red;
+}
+
+/*se declara anteponiendo un punto(.)*/
+.cuerpo{
+    background-color: blue;
+}
+
+/*se declara anteponiendo un numeral # */
+
+#masa{
+    background-color: blueviolet;
+}
