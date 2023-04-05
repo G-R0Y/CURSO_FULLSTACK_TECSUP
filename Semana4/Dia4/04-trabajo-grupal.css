@@ -1,0 +1,87 @@
+body {
+    background-color: #222;
+
+}
+
+body div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+
+body div h1 {
+    color: beige;
+}
+
+body div section button {
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    z-index: 2;
+    border: none;
+    overflow: hidden;
+    inset: 4px;
+
+
+}
+
+body div section {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    width: 109px;
+    height: 79px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+
+body div section:after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    left: -50%;
+    top: -50%;
+    border: 1px solid red;
+    background-image: linear-gradient(to right top, #b71818, #c90037, #d60057, #dc007a, #d904a0, #ce17b0, #bf27c0, #ab35d0, #962fce, #7e2acc, #6326ca, #4024c7);
+    transform-origin: bottom right;
+    animation: giro 4s linear infinite;
+    z-index: 1;
+}
+
+body div section:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    left: -50%;
+    top: -50%;
+    border: 1px solid red;
+    background-image: linear-gradient(to right top, #b71818, #c90037, #d60057, #dc007a, #d904a0, #ce17b0, #bf27c0, #ab35d0, #962fce, #7e2acc, #6326ca, #4024c7);
+    transform-origin: bottom right;
+    animation: giro 4s linear infinite;
+    z-index: 1;
+    animation-delay: 2s;
+}
+
+@keyframes giro {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+body div .texto{
+    border: 1px solid blue;
+    text-align: justify;
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    
+}
