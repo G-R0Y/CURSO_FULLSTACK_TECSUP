@@ -1,0 +1,28 @@
+.card {
+    height: 500px;
+    width: 250px;
+
+}
+
+.card-img-top {
+    height: 200px;
+    width: 200px;
+}
+
+
+.card-title {
+    height: 25px;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.card-text {
+    height: 150px;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: justify;
+    
+}
